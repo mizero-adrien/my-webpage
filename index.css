@@ -1,0 +1,118 @@
+h1{
+    color: #fff;
+    font-weight: bold;
+}
+.animation {
+animation: myslide;
+animation-play-state: running;
+/* animation-iteration-count: infinite; */
+animation-timing-function: linear;
+animation-duration: 5s;
+animation-delay: 0s;
+}
+    @keyframes myslide{
+        from{margin-left: 100%;}
+        to{margin-right: 0%;}
+    }
+
+.start a{
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+    background: white;
+    float: right;
+    margin-left: 40px;
+    font-weight: 500;
+}
+h2{
+    color: #fff;
+    font-size: 20px;
+}
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: red;
+    display: flex;
+    justify-content: space-between;
+    z-index: 99;
+}
+p{
+    font-size: 25px;
+    background-color: #aab;
+}
+.up a{
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+    margin-left: 40px;
+    font-size: 20px;
+}
+.img{
+    height: 300px;
+    position: absolute;
+    border: 2px solid blue;
+    border-width: 100%;
+    border: 100%;
+    margin-left: 10px
+
+}
+.box{
+    background-color: aliceblue;
+    border: 5px solid black;
+    width: 100%;
+    height: 200px;
+    font-size: 25px;
+    padding: 10px;
+}
+.division{
+    background-color: aliceblue;
+    border: 5px solid black;
+    width: 100%;
+    height: 200px;
+    font-size: 25px;
+    padding: 10px;    
+}
+h2{
+    font-weight: bold;
+}
+footer{
+    background-color: #f95;
+    width: 100%;
+    height: 150px;
+    bottom: 0;
+}
+.f{
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+}
+#copy{
+    background-color: #f95;
+}
+.deal{
+    background-color: yellow;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    font-size: 22px;
+    border: 1px solid black;
+    border-radius: 2px;
+
+    animation: 3s linear 0s infinite running myrotate;
+}
+@keyframes myrotate{
+100%{transform: rotatex(360deg)}
+}
+#search{
+    text-align: center;
+    width: 500px;
+    height: 30px;
+    margin-left: 40px;
+}
+#submit{
+height: 30px;
+text-align: center;
+}
